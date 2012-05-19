@@ -3,14 +3,5 @@
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     i18n_domain="pse12.initialcontent">
 
-  <genericsetup:upgradeStep
-      title="Set catalog logging progress"
-      description="Set the logging progress so that the catalog doesn't update silently"
-      source="0"
-      destination="001"
-      handler="sixfeetup.utils.helpers.catalog_progress"
-      sortkey="1"
-      profile="pse12.initialcontent:default"
-      />
 
 </configure>
