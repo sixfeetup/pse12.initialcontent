@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<metadata>
+    <version>001</version>
+    <dependencies>
+        <!--
+        <dependency>profile-${namespace_package}.content:default</dependency>
+        <dependency>profile-${namespace_package}.theme:default</dependency>
+        -->
+    </dependencies>
+</metadata>

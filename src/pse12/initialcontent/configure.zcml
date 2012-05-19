@@ -1,0 +1,32 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="pse12.initialcontent">
+
+  <!-- Set up z3c.autoinlcude to scan dependencies and plugins of this package -->
+  <includePlugins package="." />
+  <includeDependencies package="." />
+
+  <!-- Upgrades are handled via its own zcml file -->
+  <include file="upgrades.zcml"/>
+
+  <five:registerPackage package="." initialize=".initialize" />
+
+  <genericsetup:registerProfile
+      name="default"
+      title="pse12.initialcontent (default)"
+      directory="profiles/default"
+      description="Installation profile for pse12.initialcontent"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
+  <genericsetup:importStep
+      name="pse12.initialcontent: default"
+      title="pse12.initialcontent: Various steps"
+      description="Setup handlers for pse12.initialcontent"
+      handler="pse12.initialcontent.setuphandlers.importVarious">
+    <depends name="content"/>
+  </genericsetup:importStep>
+
+</configure>
