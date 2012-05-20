@@ -3,7 +3,4 @@
   <record type="Event">
     infocon
   </record>
-  <record type="Collection">
-    events
-  </record>
 </manifest>
