@@ -13,4 +13,14 @@
       profile="pse12.initialcontent:default"
       />
 
+  <genericsetup:upgradeStep
+      title="Set up the default pages"
+      description=""
+      source="001"
+      destination="002"
+      handler="pse12.initialcontent.upgrades.default_pages"
+      sortkey="20"
+      profile="pse12.initialcontent:default"
+      />
+
 </configure>

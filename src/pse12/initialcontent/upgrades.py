@@ -33,6 +33,18 @@ def default_pages(context):
     """
     portal = getSite()
     items = {
+        'about': dict(
+            id='default_page',
+            type='string',
+            value='about-us'),
+        'blog': dict(
+            id='layout',
+            type='string',
+            value='blog_view'),
+        'intranet': dict(
+            id='default_page',
+            type='string',
+            value='welcome-to-the-intranet'),
         'news-events': dict(
             id='default_page',
             type='string',
@@ -43,8 +55,17 @@ def default_pages(context):
             value='events'),
     }
     for path, prop in items.items():
-        obj = portal.unrestrictedTravers(path, None)
+        obj = portal.unrestrictedTraverse(path, None)
         # If the object doesn't exist, bail out
         if obj is None:
             continue
+        target_obj = None
+        if prop['id'] == 'default_page':
+            target_obj = obj.unrestrictedTraverse(prop['id'], None)
+            # Bail out if the default page target does not exist
+            if target_obj is None:
+                continue
         obj._setProperty(prop['id'], prop['value'], prop['value'])
+        if target_obj is not None:
+            # ensure that it doesn't show in the navigation
+            target_obj.reindexObject()
