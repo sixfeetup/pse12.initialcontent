@@ -3,5 +3,6 @@
     <version>002</version>
     <dependencies>
         <dependency>profile-quintagroup.transmogrifier:default</dependency>
+        <dependency>profile-Products.CMFPlacefulWorkflow:CMFPlacefulWorkflow</dependency>
     </dependencies>
 </metadata>

@@ -3,5 +3,14 @@
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     i18n_domain="pse12.initialcontent">
 
+  <genericsetup:upgradeStep
+      title="Set up intranet section"
+      description=""
+      source="001"
+      destination="002"
+      handler="pse12.initialcontent.upgrades.intranet_setup"
+      sortkey="10"
+      profile="pse12.initialcontent:default"
+      />
 
 </configure>
