@@ -26,7 +26,7 @@
       title="pse12.initialcontent: Various steps"
       description="Setup handlers for pse12.initialcontent"
       handler="pse12.initialcontent.setuphandlers.importVarious">
-    <depends name="content"/>
+    <depends name="content_quinta"/>
   </genericsetup:importStep>
 
 </configure>
