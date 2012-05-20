@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <field name="image">
+    <filename>
+      2parkers.jpg
+    </filename>
+    <mimetype>
+      image/jpeg
+    </mimetype>
+  </field>
+</manifest>

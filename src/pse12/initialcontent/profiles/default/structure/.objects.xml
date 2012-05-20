@@ -15,4 +15,10 @@
   <record type="Folder">
     intranet
   </record>
+  <record type="Folder">
+    images
+  </record>
+  <record type="Folder">
+    files
+  </record>
 </manifest>

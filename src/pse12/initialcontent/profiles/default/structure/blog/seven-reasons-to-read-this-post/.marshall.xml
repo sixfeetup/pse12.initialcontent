@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?><metadata xmlns="http://plone.org/ns/archetypes/" xmlns:cmf="http://cmf.zope.org/namespaces/default/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xmp="adobe:ns:meta">
+	<dc:title>
+		Seven Reasons to Read This Post
+	</dc:title>
+	<dc:creator>
+		admin
+	</dc:creator>
+	<dc:language>
+		en
+	</dc:language>
+	<xmp:CreateDate>
+		2012-05-20T17:24:13Z
+	</xmp:CreateDate>
+	<xmp:ModifyDate>
+		2012-05-20T17:24:23Z
+	</xmp:ModifyDate>
+	<field mimetype="text/plain" name="id">
+		seven-reasons-to-read-this-post
+	</field>
+	<field mimetype="text/html" name="text">
+		&lt;p&gt;Phasellus in lorem nec purus interdum placerat. Quisque enim velit, consectetur vel vehicula vitae, feugiat non erat. Praesent ornare, tortor a tincidunt dapibus, lorem leo blandit purus, eget eleifend tellus libero sed nulla. Proin nulla dolor, convallis sed congue at, tristique eu dolor. Nulla turpis tellus, adipiscing eu sollicitudin quis, sollicitudin vitae metus.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Nullam fringilla nulla non enim tincidunt fringilla.&lt;/li&gt;
+&lt;li&gt;Nulla vitae nulla a nisl lobortis consectetur ac eget tellus.&lt;/li&gt;
+&lt;li&gt;Quisque dapibus pretium lorem, non rutrum arcu ultricies tempor.&lt;/li&gt;
+&lt;li&gt;Nulla iaculis accumsan mauris, ac ullamcorper mi pretium pretium.&lt;/li&gt;
+&lt;li&gt;Nulla feugiat lectus id mauris commodo vitae aliquam ipsum laoreet.&lt;/li&gt;
+&lt;li&gt;Cras in nisi non enim porttitor adipiscing.&lt;/li&gt;
+&lt;li&gt;Fusce vel metus a est bibendum consectetur.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Donec mollis tempor dapibus. Nullam tempus, est vitae volutpat condimentum.&lt;/p&gt;
+	</field>
+	<field mimetype="text/plain" name="effectiveDate">
+		2012/05/20 13:24:23.540940 GMT-4
+	</field>
+	<uid>
+		beaf7eb0341c4bd09882c6087c07a7df
+	</uid>
+	<cmf:type>
+		Document
+	</cmf:type>
+	<cmf:workflow_history>
+		<cmf:workflow id="simple_publication_workflow">
+			<cmf:history>
+				<cmf:var id="action" type="None" value="None"/>
+				<cmf:var id="actor" type="str" value="admin"/>
+				<cmf:var id="comments" type="str" value=""/>
+				<cmf:var id="review_state" type="str" value="private"/>
+				<cmf:var id="time" type="date" value="2012-05-20T13:24:13-04:00"/>
+			</cmf:history>
+			<cmf:history>
+				<cmf:var id="action" type="str" value="publish"/>
+				<cmf:var id="actor" type="str" value="admin"/>
+				<cmf:var id="comments" type="str" value=""/>
+				<cmf:var id="review_state" type="str" value="published"/>
+				<cmf:var id="time" type="date" value="2012-05-20T13:24:23-04:00"/>
+			</cmf:history>
+		</cmf:workflow>
+	</cmf:workflow_history>
+	<cmf:security>
+		<cmf:local_role role="Owner" user_id="admin"/>
+	</cmf:security>
+</metadata>

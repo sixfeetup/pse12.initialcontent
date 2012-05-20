@@ -3,7 +3,7 @@
 		Blog
 	</dc:title>
 	<dc:description>
-		The blog for this site
+		The voice of our staff
 	</dc:description>
 	<dc:creator>
 		admin
@@ -15,7 +15,7 @@
 		2012-05-19T21:13:45Z
 	</xmp:CreateDate>
 	<xmp:ModifyDate>
-		2012-05-19T21:13:56Z
+		2012-05-20T17:21:58Z
 	</xmp:ModifyDate>
 	<field mimetype="text/plain" name="id">
 		blog
@@ -69,7 +69,7 @@
 		Collection
 	</field>
 	<field mimetype="text/plain" name="effectiveDate">
-		2012/05/19 17:13:56.856572 GMT-4
+		2012/05/19 17:15:00 GMT-4
 	</field>
 	<uid>
 		5848e7e1c2ed4f95b147ad40456501c8

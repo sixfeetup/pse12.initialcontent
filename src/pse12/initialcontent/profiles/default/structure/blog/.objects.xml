@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <record type="Document">
+    a-blog-post-about-something-exciting
+  </record>
+  <record type="Document">
+    seven-reasons-to-read-this-post
+  </record>
+</manifest>

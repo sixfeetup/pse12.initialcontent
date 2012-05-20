@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <record type="Folder">
+    images
+  </record>
+  <record type="Folder">
+    files
+  </record>
+  <record type="Document">
+    welcome-to-the-intranet
+  </record>
+</manifest>

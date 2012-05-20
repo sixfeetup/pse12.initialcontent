@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><metadata xmlns="http://plone.org/ns/archetypes/" xmlns:cmf="http://cmf.zope.org/namespaces/default/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xmp="adobe:ns:meta">
+	<dc:title>
+		Artistic Python Logo
+	</dc:title>
+	<dc:creator>
+		admin
+	</dc:creator>
+	<dc:language>
+		en
+	</dc:language>
+	<xmp:CreateDate>
+		2012-05-20T17:33:13Z
+	</xmp:CreateDate>
+	<xmp:ModifyDate>
+		2012-05-20T17:33:26Z
+	</xmp:ModifyDate>
+	<field mimetype="text/plain" name="id">
+		artistic-python-logo
+	</field>
+	<field mimetype="text/plain" name="effectiveDate">
+		2012/05/20 13:33:26.361138 GMT-4
+	</field>
+	<uid>
+		34d04b56c1114b07b4b2c4c109233a35
+	</uid>
+	<cmf:type>
+		Image
+	</cmf:type>
+	<cmf:workflow_history>
+		<cmf:workflow id="intranet_workflow">
+			<cmf:history>
+				<cmf:var id="action" type="None" value="None"/>
+				<cmf:var id="actor" type="str" value="admin"/>
+				<cmf:var id="comments" type="str" value=""/>
+				<cmf:var id="review_state" type="str" value="internal"/>
+				<cmf:var id="time" type="date" value="2012-05-20T13:33:13-04:00"/>
+			</cmf:history>
+			<cmf:history>
+				<cmf:var id="action" type="str" value="hide"/>
+				<cmf:var id="actor" type="str" value="admin"/>
+				<cmf:var id="comments" type="str" value=""/>
+				<cmf:var id="review_state" type="str" value="private"/>
+				<cmf:var id="time" type="date" value="2012-05-20T13:33:26-04:00"/>
+			</cmf:history>
+		</cmf:workflow>
+	</cmf:workflow_history>
+	<cmf:security>
+		<cmf:local_role role="Owner" user_id="admin"/>
+	</cmf:security>
+</metadata>

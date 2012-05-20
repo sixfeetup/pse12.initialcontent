@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?><metadata xmlns="http://plone.org/ns/archetypes/" xmlns:cmf="http://cmf.zope.org/namespaces/default/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xmp="adobe:ns:meta">
 	<dc:title>
-		Intranet
+		Files
 	</dc:title>
 	<dc:creator>
 		admin
@@ -9,16 +9,13 @@
 		en
 	</dc:language>
 	<xmp:CreateDate>
-		2012-05-19T21:19:23Z
+		2012-05-20T17:26:14Z
 	</xmp:CreateDate>
 	<xmp:ModifyDate>
-		2012-05-20T17:36:21Z
+		2012-05-20T17:26:51Z
 	</xmp:ModifyDate>
 	<field mimetype="text/plain" name="id">
-		intranet
-	</field>
-	<field mimetype="text/plain" name="constrainTypesMode">
-		-1
+		files
 	</field>
 	<field mimetype="text/plain" name="locallyAllowedTypes">
 		Document
@@ -69,10 +66,13 @@
 		Collection
 	</field>
 	<field mimetype="text/plain" name="effectiveDate">
-		2012/05/19 21:19:23 GMT+0
+		2012/05/20 13:26:51.689096 GMT-4
+	</field>
+	<field mimetype="text/plain" name="excludeFromNav">
+		True
 	</field>
 	<uid>
-		c157d2f0547a4c27856d9e87b7ddc690
+		b76d957e6cb947889864d53ba88b7da6
 	</uid>
 	<cmf:type>
 		Folder
@@ -84,16 +84,14 @@
 				<cmf:var id="actor" type="str" value="admin"/>
 				<cmf:var id="comments" type="str" value=""/>
 				<cmf:var id="review_state" type="str" value="private"/>
-				<cmf:var id="time" type="date" value="2012-05-19T17:19:23-04:00"/>
+				<cmf:var id="time" type="date" value="2012-05-20T13:26:14-04:00"/>
 			</cmf:history>
-		</cmf:workflow>
-		<cmf:workflow id="intranet_folder_workflow">
 			<cmf:history>
-				<cmf:var id="action" type="str" value="hide"/>
+				<cmf:var id="action" type="str" value="publish"/>
 				<cmf:var id="actor" type="str" value="admin"/>
 				<cmf:var id="comments" type="str" value=""/>
-				<cmf:var id="review_state" type="str" value="private"/>
-				<cmf:var id="time" type="date" value="2012-05-19T23:24:49-04:00"/>
+				<cmf:var id="review_state" type="str" value="published"/>
+				<cmf:var id="time" type="date" value="2012-05-20T13:26:51-04:00"/>
 			</cmf:history>
 		</cmf:workflow>
 	</cmf:workflow_history>
