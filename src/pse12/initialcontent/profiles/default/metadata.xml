@@ -2,5 +2,6 @@
 <metadata>
     <version>001</version>
     <dependencies>
+        <dependency>profile-quintagroup.transmogrifier:default</dependency>
     </dependencies>
 </metadata>

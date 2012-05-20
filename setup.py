@@ -36,6 +36,7 @@ setup(
     install_requires=[
         'setuptools',
         # -*- Extra requirements: -*-
+        'quintagroup.transmogrifier',
     ],
     entry_points="""
     # -*- Entry points: -*-
