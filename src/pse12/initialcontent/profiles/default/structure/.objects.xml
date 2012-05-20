@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <record type="Document">
+    front-page
+  </record>
+  <record type="Folder">
+    blog
+  </record>
+  <record type="Folder">
+    news-events
+  </record>
+  <record type="Folder">
+    about
+  </record>
+  <record type="Folder">
+    intranet
+  </record>
+</manifest>

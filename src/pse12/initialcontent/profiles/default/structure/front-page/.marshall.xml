@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?><metadata xmlns="http://plone.org/ns/archetypes/" xmlns:cmf="http://cmf.zope.org/namespaces/default/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xmp="adobe:ns:meta">
+	<dc:title>
+		Front Page
+	</dc:title>
+	<dc:description>
+		This is the front page of the web site
+	</dc:description>
+	<dc:creator>
+		admin
+	</dc:creator>
+	<dc:language>
+		en
+	</dc:language>
+	<xmp:CreateDate>
+		2012-05-19T21:11:51Z
+	</xmp:CreateDate>
+	<xmp:ModifyDate>
+		2012-05-19T21:12:44Z
+	</xmp:ModifyDate>
+	<field mimetype="text/plain" name="id">
+		front-page
+	</field>
+	<field mimetype="text/html" name="text">
+		&lt;p&gt;Some &lt;b&gt;bold text&lt;/b&gt;&lt;/p&gt;
+	</field>
+	<field mimetype="text/plain" name="effectiveDate">
+		2012/05/19 17:12:44.349143 GMT-4
+	</field>
+	<uid>
+		9a96b2932f15476e95ae2a30cec1c974
+	</uid>
+	<cmf:type>
+		Document
+	</cmf:type>
+	<cmf:workflow_history>
+		<cmf:workflow id="simple_publication_workflow">
+			<cmf:history>
+				<cmf:var id="action" type="None" value="None"/>
+				<cmf:var id="actor" type="str" value="admin"/>
+				<cmf:var id="comments" type="str" value=""/>
+				<cmf:var id="review_state" type="str" value="private"/>
+				<cmf:var id="time" type="date" value="2012-05-19T17:11:51-04:00"/>
+			</cmf:history>
+			<cmf:history>
+				<cmf:var id="action" type="str" value="publish"/>
+				<cmf:var id="actor" type="str" value="admin"/>
+				<cmf:var id="comments" type="str" value=""/>
+				<cmf:var id="review_state" type="str" value="published"/>
+				<cmf:var id="time" type="date" value="2012-05-19T17:12:44-04:00"/>
+			</cmf:history>
+		</cmf:workflow>
+	</cmf:workflow_history>
+	<cmf:security>
+		<cmf:local_role role="Owner" user_id="admin"/>
+	</cmf:security>
+</metadata>
