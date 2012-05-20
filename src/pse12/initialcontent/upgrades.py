@@ -24,3 +24,27 @@ def intranet_setup(context):
     # Make everything in the intranet `private`
     path = '/'.join(intranet.getPhysicalPath())
     sfutils.publishEverything(context, path, 'hide')
+
+
+def default_pages(context):
+    """There is a bug in quintagroup.transmogrifier that prevents
+    the default page from being set. We will handle it here
+    instead.
+    """
+    portal = getSite()
+    items = {
+        'news-events': dict(
+            id='default_page',
+            type='string',
+            value='what-are-we-up-to'),
+        'news-events/events': dict(
+            id='default_page',
+            type='string',
+            value='events'),
+    }
+    for path, prop in items.items():
+        obj = portal.unrestrictedTravers(path, None)
+        # If the object doesn't exist, bail out
+        if obj is None:
+            continue
+        obj._setProperty(prop['id'], prop['value'], prop['value'])

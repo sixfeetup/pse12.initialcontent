@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?><metadata xmlns="http://plone.org/ns/archetypes/" xmlns:cmf="http://cmf.zope.org/namespaces/default/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xmp="adobe:ns:meta">
 	<dc:title>
-		Seven Reasons to Read This Post
+		About Us
 	</dc:title>
-	<dc:subject>
-		seven
-	</dc:subject>
-	<dc:subject>
-		bar
-	</dc:subject>
-	<dc:subject>
-		reasons
-	</dc:subject>
-	<dc:subject>
-		baz
-	</dc:subject>
-	<dc:subject>
-		exciting
-	</dc:subject>
 	<dc:creator>
 		admin
 	</dc:creator>
@@ -24,32 +9,38 @@
 		en
 	</dc:language>
 	<xmp:CreateDate>
-		2012-05-20T17:24:13Z
+		2012-05-20T19:42:15Z
 	</xmp:CreateDate>
 	<xmp:ModifyDate>
-		2012-05-20T19:34:00Z
+		2012-05-20T19:42:23Z
 	</xmp:ModifyDate>
 	<field mimetype="text/plain" name="id">
-		seven-reasons-to-read-this-post
+		about-us
 	</field>
 	<field mimetype="text/html" name="text">
-		&lt;p&gt;Phasellus in lorem nec purus interdum placerat. Quisque enim velit, consectetur vel vehicula vitae, feugiat non erat. Praesent ornare, tortor a tincidunt dapibus, lorem leo blandit purus, eget eleifend tellus libero sed nulla. Proin nulla dolor, convallis sed congue at, tristique eu dolor. Nulla turpis tellus, adipiscing eu sollicitudin quis, sollicitudin vitae metus.&lt;/p&gt;
+		&lt;p&gt;Vestibulum lobortis sem eget ligula convallis ullamcorper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla augue orci, rhoncus id sodales eu, congue in velit. Integer convallis urna sit amet dui laoreet tempor. Duis sagittis orci porttitor orci gravida volutpat. Cras quis ligula vel magna placerat dignissim. Ut eget risus a risus dapibus venenatis vitae vel lectus. Proin elit dolor, accumsan vel iaculis sit amet, pellentesque a nibh. Nunc adipiscing, lectus eget laoreet tempor, sem odio eleifend arcu, sit amet fermentum odio metus ac justo. Cras semper luctus orci at ornare. Maecenas at libero vitae urna porttitor ornare.&lt;/p&gt;
+&lt;p&gt;Phasellus vel viverra mi. Cras quis eros non libero pellentesque imperdiet. Vivamus suscipit euismod imperdiet. Proin risus mauris, fringilla id interdum eu, lobortis at arcu. Quisque ut hendrerit neque. Praesent massa odio, interdum non aliquet eu, auctor tincidunt ante. Praesent elementum iaculis odio, quis egestas odio vestibulum ac. Aliquam hendrerit dignissim dignissim. Ut malesuada volutpat diam, id lobortis odio fringilla euismod.&lt;/p&gt;
+&lt;h2&gt;Innovation&lt;/h2&gt;
+&lt;p&gt;Morbi vitae pulvinar ante. Nunc aliquet bibendum nulla, vitae vehicula lorem tempus in. Ut auctor viverra eros sed imperdiet. Maecenas malesuada nulla nec tortor imperdiet&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Nullam fringilla nulla non enim tincidunt fringilla.&lt;/li&gt;
 &lt;li&gt;Nulla vitae nulla a nisl lobortis consectetur ac eget tellus.&lt;/li&gt;
 &lt;li&gt;Quisque dapibus pretium lorem, non rutrum arcu ultricies tempor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Strategery&lt;/h2&gt;
+&lt;p&gt;Curabitur dictum massa sit amet mi pulvinar interdum ornare odio elementum.&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;Nulla iaculis accumsan mauris, ac ullamcorper mi pretium pretium.&lt;/li&gt;
 &lt;li&gt;Nulla feugiat lectus id mauris commodo vitae aliquam ipsum laoreet.&lt;/li&gt;
 &lt;li&gt;Cras in nisi non enim porttitor adipiscing.&lt;/li&gt;
 &lt;li&gt;Fusce vel metus a est bibendum consectetur.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Donec mollis tempor dapibus. Nullam tempus, est vitae volutpat condimentum.&lt;/p&gt;
 	</field>
 	<field mimetype="text/plain" name="effectiveDate">
-		2012/04/20 13:25:00 GMT-4
+		2012/05/20 15:42:23.198886 GMT-4
 	</field>
 	<uid>
-		beaf7eb0341c4bd09882c6087c07a7df
+		e08dd103b746472ba8fce3e2c66b0735
 	</uid>
 	<cmf:type>
 		Document
@@ -61,14 +52,14 @@
 				<cmf:var id="actor" type="str" value="admin"/>
 				<cmf:var id="comments" type="str" value=""/>
 				<cmf:var id="review_state" type="str" value="private"/>
-				<cmf:var id="time" type="date" value="2012-05-20T13:24:13-04:00"/>
+				<cmf:var id="time" type="date" value="2012-05-20T15:42:15-04:00"/>
 			</cmf:history>
 			<cmf:history>
 				<cmf:var id="action" type="str" value="publish"/>
 				<cmf:var id="actor" type="str" value="admin"/>
 				<cmf:var id="comments" type="str" value=""/>
 				<cmf:var id="review_state" type="str" value="published"/>
-				<cmf:var id="time" type="date" value="2012-05-20T13:24:23-04:00"/>
+				<cmf:var id="time" type="date" value="2012-05-20T15:42:23-04:00"/>
 			</cmf:history>
 		</cmf:workflow>
 	</cmf:workflow_history>

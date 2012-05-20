@@ -1,44 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <portlets>
-  <assignment category="context" key="/Plone/blog" manager="plone.rightcolumn" name="last-entries" type="collective.blog.portlets.last_entries">
-    <property name="entries">
-      5
-    </property>
-  </assignment>
-  <assignment category="context" key="/Plone/blog" manager="plone.rightcolumn" name="monthly-archive" type="collective.blog.portlets.archive">
-    <property name="archive_view">
-      blog_view
-    </property>
-  </assignment>
-  <assignment category="context" key="/Plone/blog" manager="plone.rightcolumn" name="tag-cloud-portlet" type="qi.portlet.TagClouds.TagCloudPortlet">
-    <property name="count">
-      0
-    </property>
-    <property name="filterSubjects"/>
-    <property name="levels">
-      5
-    </property>
-    <property name="wfStates">
-      <element>
-        published
-      </element>
-    </property>
-    <property name="portletTitle">
-      Tag Cloud
-    </property>
-    <property name="restrictSubjects"/>
-    <property name="refreshInterval">
-      3600
-    </property>
-    <property name="root">
-      /blog
-    </property>
-    <property name="restrictTypes">
-      <element>
-        Document
-      </element>
-    </property>
-  </assignment>
   <blacklist category="user" manager="plone.dashboard2" status="acquire"/>
   <blacklist category="group" manager="plone.dashboard2" status="acquire"/>
   <blacklist category="content_type" manager="plone.dashboard2" status="acquire"/>
@@ -62,5 +23,5 @@
   <blacklist category="user" manager="plone.rightcolumn" status="acquire"/>
   <blacklist category="group" manager="plone.rightcolumn" status="acquire"/>
   <blacklist category="content_type" manager="plone.rightcolumn" status="acquire"/>
-  <blacklist category="context" manager="plone.rightcolumn" status="block"/>
+  <blacklist category="context" manager="plone.rightcolumn" status="acquire"/>
 </portlets>

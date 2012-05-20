@@ -2,6 +2,18 @@
 	<dc:title>
 		A blog post about something exciting
 	</dc:title>
+	<dc:subject>
+		exciting
+	</dc:subject>
+	<dc:subject>
+		bar
+	</dc:subject>
+	<dc:subject>
+		something
+	</dc:subject>
+	<dc:subject>
+		foo
+	</dc:subject>
 	<dc:creator>
 		admin
 	</dc:creator>
@@ -12,7 +24,7 @@
 		2012-05-20T17:21:58Z
 	</xmp:CreateDate>
 	<xmp:ModifyDate>
-		2012-05-20T17:44:29Z
+		2012-05-20T19:33:17Z
 	</xmp:ModifyDate>
 	<field mimetype="text/plain" name="id">
 		a-blog-post-about-something-exciting

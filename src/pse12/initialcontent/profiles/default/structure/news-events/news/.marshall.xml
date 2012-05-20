@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?><metadata xmlns="http://plone.org/ns/archetypes/" xmlns:cmf="http://cmf.zope.org/namespaces/default/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xmp="adobe:ns:meta">
 	<dc:title>
-		Files
+		News
 	</dc:title>
 	<dc:creator>
 		admin
@@ -9,13 +9,13 @@
 		en
 	</dc:language>
 	<xmp:CreateDate>
-		2012-05-20T17:29:06Z
+		2012-05-20T19:44:12Z
 	</xmp:CreateDate>
 	<xmp:ModifyDate>
-		2012-05-20T17:29:18Z
+		2012-05-20T19:46:49Z
 	</xmp:ModifyDate>
 	<field mimetype="text/plain" name="id">
-		files
+		news
 	</field>
 	<field mimetype="text/plain" name="constrainTypesMode">
 		-1
@@ -69,13 +69,10 @@
 		Collection
 	</field>
 	<field mimetype="text/plain" name="effectiveDate">
-		2012/05/20 13:29:18.498239 GMT-4
-	</field>
-	<field mimetype="text/plain" name="excludeFromNav">
-		True
+		2012/05/20 15:44:22.342535 GMT-4
 	</field>
 	<uid>
-		2826abd704644f5a8927feacf084ca80
+		7de3fd41b3c34e90a51507cc05a174bf
 	</uid>
 	<cmf:type>
 		Folder
@@ -87,23 +84,14 @@
 				<cmf:var id="actor" type="str" value="admin"/>
 				<cmf:var id="comments" type="str" value=""/>
 				<cmf:var id="review_state" type="str" value="private"/>
-				<cmf:var id="time" type="date" value="2012-05-20T14:20:18-04:00"/>
-			</cmf:history>
-		</cmf:workflow>
-		<cmf:workflow id="intranet_folder_workflow">
-			<cmf:history>
-				<cmf:var id="action" type="None" value="None"/>
-				<cmf:var id="actor" type="str" value="admin"/>
-				<cmf:var id="comments" type="str" value=""/>
-				<cmf:var id="review_state" type="str" value="internal"/>
-				<cmf:var id="time" type="date" value="2012-05-20T13:29:06-04:00"/>
+				<cmf:var id="time" type="date" value="2012-05-20T15:44:12-04:00"/>
 			</cmf:history>
 			<cmf:history>
-				<cmf:var id="action" type="str" value="hide"/>
+				<cmf:var id="action" type="str" value="publish"/>
 				<cmf:var id="actor" type="str" value="admin"/>
 				<cmf:var id="comments" type="str" value=""/>
-				<cmf:var id="review_state" type="str" value="private"/>
-				<cmf:var id="time" type="date" value="2012-05-20T13:29:18-04:00"/>
+				<cmf:var id="review_state" type="str" value="published"/>
+				<cmf:var id="time" type="date" value="2012-05-20T15:44:22-04:00"/>
 			</cmf:history>
 		</cmf:workflow>
 	</cmf:workflow_history>

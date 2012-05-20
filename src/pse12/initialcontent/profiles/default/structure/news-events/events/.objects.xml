@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <record type="Event">
+    infocon
+  </record>
+  <record type="Collection">
+    events
+  </record>
+</manifest>

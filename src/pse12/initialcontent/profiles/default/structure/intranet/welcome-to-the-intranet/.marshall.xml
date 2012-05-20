@@ -12,7 +12,7 @@
 		2012-05-20T17:36:21Z
 	</xmp:CreateDate>
 	<xmp:ModifyDate>
-		2012-05-20T17:38:22Z
+		2012-05-20T18:20:18Z
 	</xmp:ModifyDate>
 	<field mimetype="text/plain" name="id">
 		welcome-to-the-intranet
@@ -35,6 +35,15 @@
 		Document
 	</cmf:type>
 	<cmf:workflow_history>
+		<cmf:workflow id="simple_publication_workflow">
+			<cmf:history>
+				<cmf:var id="action" type="None" value="None"/>
+				<cmf:var id="actor" type="str" value="admin"/>
+				<cmf:var id="comments" type="str" value=""/>
+				<cmf:var id="review_state" type="str" value="private"/>
+				<cmf:var id="time" type="date" value="2012-05-20T14:20:18-04:00"/>
+			</cmf:history>
+		</cmf:workflow>
 		<cmf:workflow id="intranet_workflow">
 			<cmf:history>
 				<cmf:var id="action" type="None" value="None"/>

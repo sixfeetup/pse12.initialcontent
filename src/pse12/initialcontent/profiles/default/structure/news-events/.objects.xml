@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <record type="Folder">
+    news
+  </record>
+  <record type="Folder">
+    events
+  </record>
+  <record type="Document">
+    what-are-we-up-to
+  </record>
+</manifest>

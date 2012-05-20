@@ -12,7 +12,7 @@
 		2012-05-19T21:19:23Z
 	</xmp:CreateDate>
 	<xmp:ModifyDate>
-		2012-05-20T17:36:21Z
+		2012-05-20T18:20:18Z
 	</xmp:ModifyDate>
 	<field mimetype="text/plain" name="id">
 		intranet
@@ -91,9 +91,9 @@
 			<cmf:history>
 				<cmf:var id="action" type="str" value="hide"/>
 				<cmf:var id="actor" type="str" value="admin"/>
-				<cmf:var id="comments" type="str" value=""/>
+				<cmf:var id="comments" type="str" value="Content published automatically"/>
 				<cmf:var id="review_state" type="str" value="private"/>
-				<cmf:var id="time" type="date" value="2012-05-19T23:24:49-04:00"/>
+				<cmf:var id="time" type="date" value="2012-05-20T14:20:19-04:00"/>
 			</cmf:history>
 		</cmf:workflow>
 	</cmf:workflow_history>
