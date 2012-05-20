@@ -61,7 +61,7 @@ def default_pages(context):
             continue
         target_obj = None
         if prop['id'] == 'default_page':
-            target_obj = obj.unrestrictedTraverse(prop['id'], None)
+            target_obj = obj.unrestrictedTraverse(prop['value'], None)
             # Bail out if the default page target does not exist
             if target_obj is None:
                 continue
